@@ -1,6 +1,6 @@
 .texto_principal {
   margin-top: 20px;
-  margin-left: 200px;
+  margin-left: 120px;
   font-size: 28px;
   font-weight: bold;
 }
@@ -10,7 +10,7 @@
 }
 
 .product_main {
-  margin-left: 200px;
+  margin-left: 180px;
 }
 
 .product_image {
@@ -25,7 +25,6 @@
   margin-top: 10px;
   font-weight: 400;
   font-size: 18px;
-  line-height: 27px;
   color: #171717;
 }
 
@@ -84,7 +83,7 @@
 
 .popular {
   display: flex;
-  margin-left: 200px;
+  margin-left: 120px;
 }
 
 .product_logo--vertical {
@@ -109,6 +108,7 @@
   display: flex;
   align-items: center;
   column-gap: 2px;
+  border-bottom: 1px solid #00000033;
 }
 
 .popular_img--horizontal {
@@ -218,19 +218,4 @@
   padding: 10px;
   width: 800px;
   height: 160px;
-}
-
-.footer_image {
-  width: 40px;
-  height: 40px;
-  border-radius: 5px;
-  margin-top: 15px;
-  margin-left: 200px;
-}
-
-.footer_title {
-  font-size: 20px;
-  margin-top: 25px;
-  margin-left: 8px;
-  font-weight: bold;
 }

@@ -25,7 +25,21 @@
       <form class="form-login">
         <!--PRIMER BLOQUE  -->
         <div class="input-container">
-          <h2 class="input-container__title">Bienvenido</h2>
+          <h2 class="input-container__title">Regístrate ¡Es Gratis!</h2>
+          <input
+            class="input-container__input"
+            type="name"
+            name=""
+            id=""
+            placeholder="Nombre"
+          />
+          <input
+            class="input-container__input"
+            type="name"
+            name="last-name"
+            id=""
+            placeholder="Apellido"
+          />
           <input
             class="input-container__input"
             type="email"
@@ -40,15 +54,13 @@
             id=""
             placeholder="Contraseña"
           />
-          <div class="remember-container">
-            <div>
-              <!-- INPUT -->
-              <input type="checkbox" id="rememberMe" />
-              <!-- LEBEL -->
-              <label for="rememberMe">Recordarme</label>
-            </div>
-            <a href="#">Olvidaste contraseña?</a>
-          </div>
+          <input
+            class="input-container__input"
+            type="password"
+            name=""
+            id=""
+            placeholder="Confirmar Contraseña"
+          />
         </div>
         <!-- SEGUNDO BLOQUE -->
         <div class="button-container">
@@ -56,16 +68,25 @@
           <button
             class="buttons-container__button buttons-container__button--login"
           >
-            iniciar sesión
+            Crea tu cuenta
           </button>
           <!-- SESIÓN GOOGLE -->
           <button
             class="buttons-container__button buttons-container__button--google--login"
           >
-           <img class="buttons-container__image" src="./assets/img/logos/google.png" alt="google logo">
-           <span>Iniciar sesión con Google</span>
+            <img
+              class="buttons-container__image"
+              src="./assets/img/logos/google.png"
+              alt="google logo"
+            />
+            <span class="buttons-container__text">Regístrate con Google</span>
           </button>
-          <p class="buttons-container__register-text">No tienes cuenta? <a class="buttons-container__register-link" href="">Registrate</a></p>
+          <p class="buttons-container__register-text">
+            Ya tienes una cuenta?
+            <a class="buttons-container__register-link" href="#"
+              >inicia sesión</a
+            >
+          </p>
         </div>
       </form>
     </main>

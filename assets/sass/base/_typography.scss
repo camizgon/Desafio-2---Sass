@@ -3,7 +3,7 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-
+/* HEADER Y FOOTER */
 h1 {
   font-size: 1.5rem;
   text-align: center;
@@ -30,4 +30,13 @@ h1 {
   font-weight: bold;
   text-decoration: none;
   color: #000;
+}
+
+/* CSS PRINCIPAL */
+
+.section-container__text{
+  width: 30%;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 1rem;
 }

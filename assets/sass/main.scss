@@ -4,10 +4,12 @@
 //vendors
 //base
 @import "base/reset";
+@import "base/image";
 @import "base/typography";
 //layout
 @import "layout/header";
 @import "layout/forms-login.scss";
+@import "layout/main";
 //components
 @import "components/buttons";
 @import "components/inputs";

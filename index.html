@@ -1,15 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Document</title>
-</head>
-<body>
-    <header class="branch">
-        <img src="" alt="">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- VINCULAR EL .CSS / SASS CON main.scss -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="brand-container">
+        <!-- IMAGEN -->
+        <img
+          class="brand-container__image"
+          src="./assets/img/logos/adl.png"
+          alt="Logo desafio latam"
+        />
+        <!-- TEXTO -->
+        <h1 class="brand-container__title">Blog Front-End</h1>
+      </div>
     </header>
-</body>
+
+    <main class="main">
+      <form class="form-login">
+        <!--PRIMER BLOQUE  -->
+        <div class="input-container">
+          <h2 class="input-container__title">Bienvenido</h2>
+          <input
+            class="input-container__input"
+            type="email"
+            name=""
+            id=""
+            placeholder="Email"
+          />
+          <input
+            class="input-container__input"
+            type="password"
+            name=""
+            id=""
+            placeholder="Contraseña"
+          />
+          <div class="remember-container">
+            <div>
+              <!-- INPUT -->
+              <input type="checkbox" id="rememberMe" />
+              <!-- LEBEL -->
+              <label for="rememberMe">Recordarme</label>
+            </div>
+            <a href="#">Olvidaste contraseña?</a>
+          </div>
+        </div>
+        <!-- SEGUNDO BLOQUE -->
+        <div class="button-container">
+          <!-- INICIAR SESIÓN -->
+          <button
+            class="buttons-container__button buttons-container__button--login"
+          >
+            iniciar sesión
+          </button>
+          <!-- SESIÓN GOOGLE -->
+          <button
+            class="buttons-container__button buttons-container__button--google--login"
+          >
+           <img class="buttons-container__image" src="./assets/img/logos/google.png" alt="google logo">
+           <span>Iniciar sesión con Google</span>
+          </button>
+          <p class="buttons-container__register-text">No tienes cuenta? <a class="buttons-container__register-link" href="">Registrate</a></p>
+        </div>
+      </form>
+    </main>
+  </body>
 </html>
